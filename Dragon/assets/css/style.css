@@ -1,0 +1,204 @@
+/* ---------------Box Sizing----------------- */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    background-color:rgba(0,0,0,.9);
+    margin:5px;
+    background-image: url("../img/headbackground.jpg");
+}
+
+header.primary { 
+  
+    text-align:center;
+    color:#fff;
+   padding:80px;
+    text-shadow: 8px 5px 20px #000;
+}
+
+header.primary h1 a{
+    color:#fff;
+    text-decoration:none;
+    font-size:3.5rem;
+    display: block;
+    margin:20px 0;
+}
+
+header.primary h2{
+    font-size:2rem;
+    margin:auto;
+}
+
+header nav{
+    max-width: 60vw;
+    margin:20px auto;
+    
+    
+}
+
+header nav ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    padding:60px;
+    
+}
+
+header nav ul li{
+    list-style-type:none;
+    padding:10px;
+    float:inherit; 
+    
+     
+    
+    
+}
+
+header nav ul li a{
+    color:#C8CFD5;
+    background-color:#A15ABF;
+    background-color:rgba(161,90,191,0.75);
+    padding: 8px 16px;
+    border-radius:25px;
+    transition: .4s;
+}
+
+header nav ul li a:hover, nav ul li a:active{
+    background-color:rgba(4,104,191,.1);
+}
+
+.container{
+
+    /* Margin shorthand Top/Bottom Left/Right */
+    margin:60px auto;
+}
+ 
+#content ul li{
+    padding:25px;
+}
+
+#content{
+    padding: 60px;
+    background-color:rgba(0,0,0,.6);
+    position:center;
+    
+}
+#intro{
+    border-bottom:6px solid #A64029;
+    padding-bottom:30px;
+}
+
+
+#intro h2{
+    color:#A15ABF;
+    
+}
+#content h1{
+    text-align:center;
+}
+#content{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+#content p{
+    text-align:left;
+}
+.primary #main-nav{
+    justify-content: space-evenly;
+    display:flex;
+    flex-direction:row;
+    padding-top:60px;
+}
+
+.primary #main-nav li a{
+    color:white;
+    
+}
+
+.primary #main-nav li a:visited{
+    color:#C4007E;
+    
+    
+}
+
+footer .primary{
+    text-align:center;
+}
+footer#colophon{
+    background:#5B4B8D;
+}
+
+footer#colophon h6{
+    color:#000;
+    margin:0;
+    padding: 60px;
+    text-align:center;
+}
+
+#additional-elements h2{
+    color:#A15ABF;
+    border-bottom:2px dotted #BB7ED7;
+}
+
+#additional-elements p{
+    line-height:1rem;
+}
+
+#additional-elements h3{
+    border-left:7.5px solid #BB7ED7;
+    padding-left:15px;
+} 
+
+#additional-elements table{
+    border:5px solid #BB7ED7;
+    width:100%;
+    
+}
+
+#additional-elements table caption{
+    font-weight:bold;
+    font-size: 1.8em;
+    line-height: 1.5em;
+}
+
+#additional-elements table td{
+    border:2px solid #BB7ED7;
+}
+
+
+
+.align-right{
+   display:block;
+    margin:15px auto;
+    padding:7.5px;
+    width:300px;
+}
+
+ .align-left{
+    display:block;
+    margin:15px auto;
+    padding:7.5px;
+    width:300px;
+}
+
+.align-center{
+    display:block;
+}
+
+
+
